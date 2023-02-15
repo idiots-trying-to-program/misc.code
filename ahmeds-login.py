@@ -6,7 +6,7 @@ def compute():
 from alive_progress import alive_bar
 import sys
 #LOGIN TABLE
-sntable = ["11515523"]115
+sntable = ["11515523"]
 print("Welcome to the REMSC database!")
 time.sleep(.5)
 attempts = 0
