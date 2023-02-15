@@ -5,20 +5,27 @@ def compute():
         yield
 from alive_progress import alive_bar
 import sys
+#LOGIN TABLE
+sntable = ["11515523"]115
 print("Welcome to the REMSC database!")
 time.sleep(.5)
 attempts = 0
-print("Enter your Service number and your password.")
+print("Enter your Service number")
 SN = input()
-PW = input()
-if SN == "11515523" and PW == "1001_Winning":
-  print("Welcome back, Modeus.")
-while SN != "11515523" or PW != "1001_Winning":
+if SN in sntable:
+    print("Place your finger on the scanner")
+    input()
+    for i in range(1):
+        with alive_bar(50, ctrl_c=False, title=f'Scanning...') as bar:
+            for i in range(100):
+                time.sleep(0.02)
+                bar()
+    print("Welcome back.")
+while SN not in sntable:
   attempts += 1
-  print("Incorrect username and/or password, please try again.")
-  print("Enter your Service number and your password.")
+  print("Incorrect service number.")
+  print("Enter your Service number.")
   SN = input()
-  PW = input()
   if attempts == 3:
    sys.exit("Too many failed attempts.")
 time.sleep(1)
@@ -56,7 +63,7 @@ def main_body():
         time.sleep(0.5)
         print("County Shooting, General Purpose Rifle - L85A3: 1st place, July 2022")
         time.sleep(0.5)
-        print("County Shooting, General Purpose Rifle - L85A3: 2st place, January 2022")
+        print("County Shooting, General Purpose Rifle - L85A3: 2st place, January 2023")
         time.sleep(0.5)
         print("County Shooting, L81 Target Rifle: 2nd place, January 2021")
         main_body()
