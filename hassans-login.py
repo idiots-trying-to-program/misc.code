@@ -16,3 +16,5 @@ print("Your name is,", name,"and your password is,",pw)
 # a colon represents then 
 #use and/while statements
 #don't forget inverted commas
+
+#note from rumodeus/ahmed, this guy cannot code at all. he should learn though, im traumatised by his attempt at this. i had to guide him through most steps.
