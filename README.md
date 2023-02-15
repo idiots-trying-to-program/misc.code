@@ -1,4 +1,4 @@
-<b> WE ARE STUPID </b>
+<h><b> WE ARE STUPID </b></h>
 
 this is where we try to improve at coding
 
