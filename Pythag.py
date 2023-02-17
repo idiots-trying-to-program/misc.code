@@ -13,4 +13,5 @@ print(c)
 #c represents the sum of the squares of the two numbers
 #the formula for the pythagorean calculator is asquared+bsquared
 #the pow command raises the first variable to the power of the second interger
-#hope you enjoy the calculator
+#hope you enjoy the calculator.
+#:D
