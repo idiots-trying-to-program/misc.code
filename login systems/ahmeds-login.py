@@ -7,6 +7,7 @@ from alive_progress import alive_bar
 import sys
 #LOGIN TABLE
 sntable = ["11515523"]
+name = ["Erin"]
 #LOGIN TABLE END
 print("Welcome to the REMSC database!")
 time.sleep(.5)
@@ -21,7 +22,9 @@ if SN in sntable:
             for i in range(100):
                 time.sleep(0.02)
                 bar()
-    print("Welcome back.")
+    if SN == sntable[0]:
+        name1 = name[0]
+    print("Welcome back,", name1)
 while SN not in sntable:
   attempts += 1
   print("Incorrect service number.")
