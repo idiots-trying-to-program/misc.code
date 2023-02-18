@@ -17,4 +17,3 @@ print("The hypotenuse is:",c)
 #the pow command raises the first variable to the power of the second interger
 #hope you enjoy the calculator.
 #:D
-
